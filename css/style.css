@@ -16,7 +16,7 @@
     overscroll-behavior-y: contain;
     -webkit-user-select: none;
     -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
+    -webkit-touch-callout: none;/* ios para no hacer selecciones */
 }
 
 /* Personalizados */
