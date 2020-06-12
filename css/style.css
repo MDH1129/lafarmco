@@ -13,7 +13,7 @@
     width: 100%;
 
 
-    overscroll-behavior-y: contain;
+    overscroll-behavior-y: contain;/* esto es para que no se vea que carga la pwa */
     -webkit-user-select: none;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;/* ios para no hacer selecciones */
