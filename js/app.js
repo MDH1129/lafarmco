@@ -1,17 +1,17 @@
 
 var url = window.location.href;
-var swLocation = '/twittor/sw.js';
+var swLocation = '/twittor/sw.js';//este es mi patch del sw para git
 
 
 if ( navigator.serviceWorker ) {
 
 
-    if ( url.includes('localhost') ) {
+    if ( url.includes('localhost') ) {//esto es para si esta local
         swLocation = '/sw.js';
     }
 
 
-    navigator.serviceWorker.register( swLocation );
+    navigator.serviceWorker.register( swLocation );//esto es para registrarlo en git
 }
 
 
